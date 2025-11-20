@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton cradle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            background-color: black;
+        }
+
+        h1{
+            color: rgb(100, 16, 204);
+            font-family: sans-serif;
+            font-size: 50px;
+            border-top: 2px solid rgb(100, 16, 204);
+            border-bottom: 2px solid rgb(100, 16, 204);
+        }
+        h1:hover{
+            color: white;
+        }
+        .cradle{
+            width: 35rem;
+            height: 35rem;
+            border-top: 1rem solid rgb(100, 16, 204);
+            background-color: transparent;
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 4.5rem;
+        }
+
+        div{
+            width: 0.5rem;
+            height: 20rem;
+            background-color: rgb(100, 16, 204);
+            position: relative;
+        }
+
+        .cradle div::before{
+            content: "";
+            width: 5rem;
+            left: -2.25rem;
+            top: 90%;
+            position: absolute;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: rgb(100, 16, 204);
+        }
+
+        .cradle div:first-child{
+            animation: left-swing 2s linear infinite alternate;
+            transform-origin: top left;
+
+        }
+
+        .cradle div:last-child{
+            animation: right-swing 2s linear 1s infinite alternate;
+            transform-origin: top left;
+
+        }
+
+        @keyframes left-swing{
+            0%{
+                rotate: 0deg;
+            }
+            50%{
+                rotate: 40deg;
+            }
+            100%{
+                rotate: 0deg;
+            }
+        }
+        @keyframes right-swing{
+            0%{
+                rotate: 0deg;
+            }
+            50%{
+                rotate: -40deg;
+            }
+            100%{
+                rotate: 0deg;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Newton Cradle</h1>
+        <div class="cradle">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </main>
+</body>
+
+</html>
