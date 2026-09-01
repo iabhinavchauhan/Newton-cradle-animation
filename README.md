@@ -1,6 +1,6 @@
 # Newton Cradle Animation
 
-A simple and interactive Newton Cradle animation built using HTML, CSS, and JavaScript. The project demonstrates the basic concept of motion and collision through a web-based animation.
+A simple and interactive Newton Cradle animation built using HTML and CSS. The project demonstrates the basic concept of motion and collision through a web-based animation.
 
 ## Live Demo
 
