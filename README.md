@@ -11,15 +11,12 @@ A simple and interactive Newton Cradle animation built using HTML, CSS, and Java
 * Interactive Newton Cradle animation
 * Smooth ball movement
 * Realistic swinging effect
-* Simple and clean user interface
 * Responsive design
-* Built using basic web technologies
 
 ## Technologies Used
 
 * HTML5
 * CSS3
-* JavaScript
 * CSS Animations
 
 ## How It Works
