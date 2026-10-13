@@ -6,12 +6,6 @@ A simple and interactive Newton Cradle animation built using HTML and CSS.
 
 [View Live Demo](https://iabhinavchauhan.github.io/Newton-cradle-animation/)
 
-## Technologies Used
-
-* HTML5
-* CSS3
-* CSS Animations
-
 ## How It Works
 
 The project uses HTML to create the structure of the Newton Cradle, CSS to style the balls and create the animation, and JavaScript to control the interaction and movement.
