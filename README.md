@@ -6,13 +6,6 @@ A simple and interactive Newton Cradle animation built using HTML and CSS. The p
 
 [View Live Demo](https://iabhinavchauhan.github.io/Newton-cradle-animation/)
 
-## Features
-
-* Interactive Newton Cradle animation
-* Smooth ball movement
-* Realistic swinging effect
-* Responsive design
-
 ## Technologies Used
 
 * HTML5
