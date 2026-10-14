@@ -58,4 +58,3 @@ The project is deployed using GitHub Pages.
 
 Abhinav Chauhan
 
-GitHub: https://github.com/iabhinavchauhan
