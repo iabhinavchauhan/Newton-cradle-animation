@@ -45,9 +45,4 @@ Open `index.html` in your browser.
 Through this project, I practiced:
 
 * HTML structure and semantic elements
-* CSS positioning and animations
-* JavaScript DOM manipulation
-* Creating interactive web animations
-* Building and deploying a frontend project
-
-## Deployment
+* CSS posi
