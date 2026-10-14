@@ -39,10 +39,3 @@ cd Newton-cradle-animation
 ```
 
 Open `index.html` in your browser.
-
-## Learning Outcomes
-
-Through this project, I practiced:
-
-* HTML structure and semantic elements
-* CSS posi
