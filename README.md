@@ -51,10 +51,3 @@ Through this project, I practiced:
 * Building and deploying a frontend project
 
 ## Deployment
-
-The project is deployed using GitHub Pages.
-
-## Author
-
-Abhinav Chauhan
-
